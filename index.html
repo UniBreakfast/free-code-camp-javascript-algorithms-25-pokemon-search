@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Pokemon Search</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1>Pokemon Search</h1>
+
+  <form id="search-form">
+    <button id="random-button" title="Random id">🎲</button>
+    <input id="search-input" required>
+    <button id="search-button">Search</button>
+  </form>
+
+  <section id="search-result" hidden>
+    <h2>
+      <output id="pokemon-name"></output>
+    </h2>
+    <h3>(id:
+      <output id="pokemon-id"></output>)
+    </h3>
+
+    <dl id="pokemon-info">
+      <dt>Weight:</dt>
+      <dd>
+        <output id="weight"></output>
+      </dd>
+
+      <dt>Height:</dt>
+      <dd>
+        <output id="height"></output>
+      </dd>
+
+      <dt>Type:</dt>
+      <dd>
+        <ul id="types"></ul>
+      </dd>
+    </dl>
+
+    <figure id="pokemon-image-wrapper">
+      <img id="sprite">
+      <figcaption>
+        <output id="fig-caption"></output>
+      </figcaption>
+    </figure>
+
+    <dl id="pokemon-stats">
+      <dt>Health, hit points (HP):</dt>
+      <dd>
+        <output id="hp"></output>
+      </dd>
+
+      <dt>Attack power:</dt>
+      <dd>
+        <output id="attack"></output>
+      </dd>
+
+      <dt>Defense strength:</dt>
+      <dd>
+        <output id="defense"></output>
+      </dd>
+
+      <dt>Special attack power:</dt>
+      <dd>
+        <output id="special-attack"></output>
+      </dd>
+
+      <dt>Special defense strength:</dt>
+      <dd>
+        <output id="special-defense"></output>
+      </dd>
+
+      <dt>Speed:</dt>
+      <dd>
+        <output id="speed"></output>
+      </dd>
+    </dl>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

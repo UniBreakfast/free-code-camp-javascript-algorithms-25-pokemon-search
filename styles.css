@@ -1,0 +1,139 @@
+body {
+  text-align: center;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  color: #333;
+  padding: 8px 20px 30px;
+}
+
+#search-form {
+  margin: 20px 0;
+}
+
+#search-input {
+  text-align: center;
+  padding: 10px;
+  border: 2px solid #ffcb05;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ffcb05;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #333;
+}
+
+button:hover {
+  background-color: #e6b800;
+}
+
+#search-result {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+h1 {
+  color: #cc0000;
+}
+
+h2 {
+  color: #3b4cca;
+  display: inline-block;
+}
+
+h3 {
+  color: #666;
+  display: inline-block;
+}
+
+#pokemon-info, #pokemon-stats {
+  margin: auto;
+  max-width: 480px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px 0;
+}
+
+dt {
+  text-align: right;
+  box-sizing: border-box;
+  padding-right: 8px;
+  color: #cc0000;
+}
+
+dd {
+  margin: 0;
+  text-align: left;
+  color: #333;
+}
+
+#pokemon-info>:not(:last-of-type) {
+  width: 23%;
+}
+
+#pokemon-info>:first-child {
+  width: 31%;
+}
+
+#pokemon-info>dt:last-of-type {
+  width: 45%;
+}
+
+#pokemon-info>dd:last-of-type {
+  width: 55%;
+}
+
+#pokemon-stats>dt:first-of-type,
+#pokemon-stats>dt:last-of-type {
+  width: 60%;
+}
+
+#pokemon-stats>dd:first-of-type,
+#pokemon-stats>dd:last-of-type {
+  width: 40%;
+}
+
+#pokemon-stats>dt:not(:first-of-type):not(:last-of-type) {
+  width: 40%;
+}
+
+#pokemon-stats>dd:not(:first-of-type):not(:last-of-type) {
+  width: 10%;
+}
+
+#types {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+#types li {
+  margin-right: 10px;
+  padding: 5px 10px;
+  background-color: #3b4cca;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+#sprite {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #ffcb05;
+  border-radius: 10px;
+}
+
+#fig-caption {
+  font-style: italic;
+  color: #666;
+}
