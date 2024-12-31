@@ -4,6 +4,8 @@
 
 # [Pokémon Search App](https://github.com/UniBreakfast/free-code-camp-javascript-algorithms-25-pokemon-search)
 
+![image](https://github.com/user-attachments/assets/e64df723-9fd6-47cc-ae87-3fffe889af6e)
+
 [project link](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/build-a-pokemon-search-app-project/build-a-pokemon-search-app)
 
 ![image](https://github.com/user-attachments/assets/865e3faa-5db7-4eda-bd47-25ffbf31e38f)
